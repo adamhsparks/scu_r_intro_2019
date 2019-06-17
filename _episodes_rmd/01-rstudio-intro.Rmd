@@ -159,7 +159,7 @@ prompt.
 
 > ## Tip: Cancelling commands
 >
-> If you're using R from the commandline instead of from within RStudio,
+> If you're using R from the command line instead of from within RStudio,
 > you need to use <kbd>Ctrl</kbd>+<kbd>C</kbd> instead of <kbd>Esc</kbd>
 > to cancel the command. This applies to Mac users as well!
 >
@@ -560,7 +560,7 @@ network). R and RStudio have functionality for managing packages:
 > > ```{r ch3-sol}
 > > mass > age
 > >```
-> > This should yield a boolean value of TRUE since `r mass` is greater than `r age`.
+> > This should yield a Boolean value of TRUE since `r mass` is greater than `r age`.
 > {: .solution}
 {: .challenge}
 

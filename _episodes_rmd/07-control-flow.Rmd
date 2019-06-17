@@ -302,7 +302,7 @@ output_vector2
 > > This is because `as.vector()` outputs the elements of an input matrix going over its column.
 > > Taking a look at `output_matrix`, we can notice that we want its elements by rows.
 > > The solution is to transpose the `output_matrix`. We can do it either by calling the transpose function
-> > `t()` or by inputing the elements in the right order.
+> > `t()` or by inputting the elements in the right order.
 > > The first solution requires to change the original
 > > ```{r ch10pt9-sol, eval=FALSE}
 > > output_vector2 <- as.vector(output_matrix)
