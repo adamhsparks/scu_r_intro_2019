@@ -167,7 +167,7 @@ prompt.
 
 > ## Tip: Cancelling commands
 >
-> If you're using R from the commandline instead of from within RStudio,
+> If you're using R from the command line instead of from within RStudio,
 > you need to use <kbd>Ctrl</kbd>+<kbd>C</kbd> instead of <kbd>Esc</kbd>
 > to cancel the command. This applies to Mac users as well!
 >
@@ -708,7 +708,7 @@ function (name, pos = -1L, envir = as.environment(pos), all.names = FALSE,
     }
     else all.names
 }
-<bytecode: 0x2296ff0>
+<bytecode: 0x7f89a9c811f0>
 <environment: namespace:base>
 ~~~
 {: .output}
@@ -848,7 +848,7 @@ network). R and RStudio have functionality for managing packages:
 > > [1] TRUE
 > > ~~~
 > > {: .output}
-> > This should yield a boolean value of TRUE since 109.25 is greater than 102.
+> > This should yield a Boolean value of TRUE since 109.25 is greater than 102.
 > {: .solution}
 {: .challenge}
 

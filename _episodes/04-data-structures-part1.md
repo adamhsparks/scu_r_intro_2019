@@ -297,7 +297,7 @@ typeof(cats$weight)
 ~~~
 {: .output}
 
-Oh no, our weights aren't the double type anymore! If we try to do the same math
+Oh no, our weights aren't the double type any more! If we try to do the same math
 we did on them before, we run into trouble:
 
 

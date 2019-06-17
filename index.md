@@ -17,7 +17,9 @@ task automation, and encapsulation.
 Note that this workshop will focus on teaching the fundamentals of the
 programming language R, and will not teach statistical analysis.
 
-The lesson contains more material than can be taught in a day.  The [instructor notes page]({{ page.root }}/guide) has some suggested lesson plans suitable for a one or half day workshop.
+The lesson contains more material than can be taught in a day.  
+The [instructor notes page]({{ page.root }}/guide) has some suggested lesson
+plans suitable for a one or half day workshop.
 
 A variety of third party packages are used throughout this workshop. These
 are not necessarily the best, nor are they comprehensive, but they are

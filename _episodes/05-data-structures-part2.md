@@ -136,7 +136,7 @@ length(age)
 ~~~
 {: .output}
 
-So for it to work we need to have `nrow(cats)` = `length(age)`. Let's overwite the content of cats with our new data frame.
+So for it to work we need to have `nrow(cats)` = `length(age)`. Let's overwrite the content of cats with our new data frame.
 
 
 ~~~
@@ -413,7 +413,7 @@ cats
 51 tortoiseshell    3.3            1   9
 ~~~
 {: .output}
-But now the row names are unnecessarily complicated. We can remove the rownames,
+But now the row names are unnecessarily complicated. We can remove the row names,
 and R will automatically re-name them sequentially:
 
 

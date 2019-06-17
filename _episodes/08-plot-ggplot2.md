@@ -8,9 +8,9 @@ questions:
 - "How can I create publication-quality graphics in R?"
 objectives:
 - "To be able to use ggplot2 to generate publication quality graphics."
-- "To apply geometry, aesthetic, and statisics layers to a ggplot plot."
-- "To manipulate the aesthetics of a plot usng different colors, shapes, and lines."
-- "To improve data visualization through transforming scales and paneling by group."
+- "To apply geometry, aesthetic, and statistics layers to a ggplot plot."
+- "To manipulate the aesthetics of a plot using different colors, shapes, and lines."
+- "To improve data visualization through transforming scales and panelling by group."
 - "To save a plot created with ggplot to disk."
 keypoints:
 - "Use `ggplot2` to create plots."
@@ -85,7 +85,7 @@ ggplot(data = gapminder, mapping = aes(x = gdpPercap, y = lifeExp))
 We need to tell `ggplot` how we want to visually represent the data, which we
 do by adding a new **geom** layer. In our example, we used `geom_point`, which
 tells `ggplot` we want to visually represent the relationship between **x** and
-**y** as a scatterplot of points:
+**y** as a scatter plot of points:
 
 
 ~~~
@@ -129,7 +129,7 @@ ggplot(data = gapminder, mapping = aes(x = gdpPercap, y = lifeExp)) +
 > ## Challenge 2
 >
 > In the previous examples and challenge we've used the `aes` function to tell
-> the scatterplot **geom** about the **x** and **y** locations of each point.
+> the scatter plot **geom** about the **x** and **y** locations of each point.
 > Another *aesthetic* property we can modify is the point *color*. Modify the
 > code from the previous challenge to **color** the points by the "continent"
 > column. What trends do you see in the data? Are they what you expected?
@@ -137,7 +137,7 @@ ggplot(data = gapminder, mapping = aes(x = gdpPercap, y = lifeExp)) +
 > > ## Solution to challenge 2
 > >
 > > In the previous examples and challenge we've used the `aes` function to tell
-> > the scatterplot **geom** about the **x** and **y** locations of each point.
+> > the scatter plot **geom** about the **x** and **y** locations of each point.
 > > Another *aesthetic* property we can modify is the point *color*. Modify the
 > > code from the previous challenge to **color** the points by the "continent"
 > > column. What trends do you see in the data? Are they what you expected?
@@ -157,7 +157,7 @@ ggplot(data = gapminder, mapping = aes(x = gdpPercap, y = lifeExp)) +
 
 ## Layers
 
-Using a scatterplot probably isn't the best for visualizing change over time.
+Using a scatter plot probably isn't the best for visualizing change over time.
 Instead, let's tell `ggplot` to visualize the data as a line plot:
 
 
@@ -334,12 +334,12 @@ variables and their visual representation.
 >
 > Modify your solution to Challenge 4a so that the
 > points are now a different shape and are colored by continent with new
-> trendlines.  Hint: The color argument can be used inside the aesthetic.
+> trend lines.  Hint: The color argument can be used inside the aesthetic.
 >
 > > ## Solution to challenge 4b
 > >
 > > Modify Challenge 4 so that the points are now a different shape and are
-> > colored by continent with new trendlines.
+> > colored by continent with new trend lines.
 > >
 > > Hint: The color argument can be used inside the aesthetic.
 > >
