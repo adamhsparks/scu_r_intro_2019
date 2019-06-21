@@ -177,7 +177,7 @@ Now we have a good directory structure we will now place/save the data file in t
 > > 
 > > 
 > > ~~~
-> > -rw-r--r-- 1 adamsparks staff 80K Jun 17 17:53 data/gapminder_data.csv
+> > -rw-r--r-- 1 U8004755 staff 80K Jun 17 15:03 data/gapminder_data.csv
 > > ~~~
 > > {: .output}
 > > The file size is 80K.

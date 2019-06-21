@@ -708,7 +708,7 @@ function (name, pos = -1L, envir = as.environment(pos), all.names = FALSE,
     }
     else all.names
 }
-<bytecode: 0x7f89a9c811f0>
+<bytecode: 0x7fb3e62efed0>
 <environment: namespace:base>
 ~~~
 {: .output}
@@ -871,7 +871,7 @@ network). R and RStudio have functionality for managing packages:
 
 > ## Challenge 5
 >
-> Install the following packages: `ggplot2`, `plyr`, `gapminder`
+> Install the following packages: `ggplot2`, `dplyr`, `tidyr`, `gapminder`
 >
 > > ## Solution to challenge 5
 > >
@@ -879,7 +879,8 @@ network). R and RStudio have functionality for managing packages:
 > > 
 > > ~~~
 > > install.packages("ggplot2")
-> > install.packages("plyr")
+> > install.packages("dplyr")
+> > install.packages("tidyr")
 > > install.packages("gapminder")
 > > ~~~
 > > {: .language-r}
