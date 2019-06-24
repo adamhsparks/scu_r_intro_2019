@@ -39,7 +39,7 @@ Keep your project folder structured, organized and tidy, by creating subfolders 
 > ```r
 > install.packages("ProjectTemplate")
 > library("ProjectTemplate")
-> create.project("../my_project", merge.strategy = "allow.non.conflict")
+> create.project("../my_project_2", merge.strategy = "allow.non.conflict")
 > ```
 >
 > For more information on ProjectTemplate and its functionality visit the

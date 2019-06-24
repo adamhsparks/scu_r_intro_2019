@@ -73,7 +73,7 @@ nasty bugs.
 
 ## The `dplyr` package
 
-Luckily, the [`dplyr`](https://cran.r-project.org/web/packages/dplyr/dplyr.pdf)
+Luckily, the [`dplyr`](https://cran.r-project.org/package=dplyr)
 package provides a number of very useful functions for manipulating dataframes
 in a way that will reduce the above repetition, reduce the probability of making
 errors, and probably even save you some typing. As an added bonus, you might
@@ -504,6 +504,20 @@ gdp_future_bycontinents_byyear_high_lifeExp <- gapminder %>%
 
 ## Combining `dplyr` and `ggplot2`
 
+First install and load ggplot2:
+
+
+~~~
+install.packages('ggplot2')
+~~~
+{: .language-r}
+
+
+~~~
+library("ggplot2")
+~~~
+{: .language-r}
+
 In the plotting lesson we looked at how to make a multi-panel figure by adding
 a layer of facet panels using `ggplot2`. Here is the code we used (with some
 extra comments):
@@ -520,7 +534,7 @@ ggplot(data = az.countries, aes(x = year, y = lifeExp, color = continent)) +
 ~~~
 {: .language-r}
 
-<img src="../fig/rmd-13-unnamed-chunk-21-1.png" title="plot of chunk unnamed-chunk-21" alt="plot of chunk unnamed-chunk-21" style="display: block; margin: auto;" />
+<img src="../fig/rmd-13-unnamed-chunk-23-1.png" title="plot of chunk unnamed-chunk-23" alt="plot of chunk unnamed-chunk-23" width="612" style="display: block; margin: auto;" />
 
 This code makes the right plot but it also creates some variables (`starts.with`
 and `az.countries`) that we might not have any other uses for. Just as we used
@@ -544,7 +558,7 @@ gapminder %>%
 ~~~
 {: .language-r}
 
-<img src="../fig/rmd-13-unnamed-chunk-22-1.png" title="plot of chunk unnamed-chunk-22" alt="plot of chunk unnamed-chunk-22" style="display: block; margin: auto;" />
+<img src="../fig/rmd-13-unnamed-chunk-24-1.png" title="plot of chunk unnamed-chunk-24" alt="plot of chunk unnamed-chunk-24" width="612" style="display: block; margin: auto;" />
 
 Using `dplyr` functions also helps us simplify things, for example we could
 combine the first two steps:
@@ -561,7 +575,7 @@ gapminder %>%
 ~~~
 {: .language-r}
 
-<img src="../fig/rmd-13-unnamed-chunk-23-1.png" title="plot of chunk unnamed-chunk-23" alt="plot of chunk unnamed-chunk-23" style="display: block; margin: auto;" />
+<img src="../fig/rmd-13-unnamed-chunk-25-1.png" title="plot of chunk unnamed-chunk-25" alt="plot of chunk unnamed-chunk-25" width="612" style="display: block; margin: auto;" />
 
 > ## Advanced Challenge
 >

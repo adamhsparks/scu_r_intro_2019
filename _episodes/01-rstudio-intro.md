@@ -650,7 +650,8 @@ ls()
 
 
 ~~~
-[1] "x" "y"
+[1] "args"          "dest_md"       "missing_pkgs"  "required_pkgs"
+[5] "src_rmd"       "x"             "y"            
 ~~~
 {: .output}
 
@@ -707,7 +708,7 @@ function (name, pos = -1L, envir = as.environment(pos), all.names = FALSE,
     }
     else all.names
 }
-<bytecode: 0x7fe307290e00>
+<bytecode: 0x7f90c105ee80>
 <environment: namespace:base>
 ~~~
 {: .output}

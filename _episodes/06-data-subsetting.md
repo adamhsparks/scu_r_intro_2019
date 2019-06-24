@@ -733,7 +733,7 @@ x[! names(x) %in% c("a","c") ]
 > 
 > ~~~
 > seAsia <- c("Myanmar","Thailand","Cambodia","Vietnam","Laos")
-> ## read in the gapminder data that we downloaded in episode 2
+> ## read in the gapminder data that we moved in the Unix lesson this morning
 > gapminder <- read.csv("data/gapminder_data.csv", header=TRUE)
 > ## extract the `country` column from a data frame (we'll see this later);
 > ## convert from a factor to a character;

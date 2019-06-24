@@ -475,7 +475,7 @@ cats
 ## Realistic example
 So far, you have seen the basics of manipulating data frames with our cat data;
 now let's use those skills to digest a more realistic dataset. Let's read in the
-`gapminder` dataset that we downloaded previously:
+`gapminder` dataset that we moved to our `data` directory previously:
 
 
 ~~~
@@ -505,7 +505,7 @@ gapminder <- read.csv("data/gapminder_data.csv")
 > {: .language-r}
 >
 > * You can read directly from excel spreadsheets without
-> converting them to plain text first by using the [readxl](https://cran.r-project.org/web/packages/readxl/index.html) package.
+> converting them to plain text first by using the [readxl](https://cran.r-project.org/package=readxl) package.
 {: .callout}
 
 Let's investigate gapminder a bit; the first thing we should always do is check
@@ -819,7 +819,16 @@ into a script file so we can come back to it later.
 > as its argument (or by pressing the "source" button in RStudio).
 >
 > > ## Solution to Challenge 4
-> > The contents of `scripts/load-gapminder.R`:
+> > 
+> > The `source` function can be used to use a script within a script.
+> > Assume you would like to load the same type of file over and over 
+> > again and therefore you need to specify the arguments to fit the 
+> > needs of your file. Instead of writing the necessary argument again
+> > and again you could just write it once and save it as a script. Then,
+> > you can use `source("Your_Script_containing_the_load_function")` in a new
+> > script to use the function of that script without writing everything again.
+> > Check out `?source` to find out more.
+> > 
 > > 
 > > ~~~
 > > download.file("https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder_data.csv", destfile = "data/gapminder_data.csv")
