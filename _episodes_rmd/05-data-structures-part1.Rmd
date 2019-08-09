@@ -251,14 +251,14 @@ a column to be the same basic data type.
 You can also make vectors with explicit contents with the combine function:
 
 ```{r}
-combine_vector <- c(2,6,3)
+combine_vector <- c(2, 6, 3)
 combine_vector
 ```
 
 Given what we've learned so far, what do you think the following will produce?
 
 ```{r}
-quiz_vector <- c(2,6,'3')
+quiz_vector <- c(2, 6, '3')
 ```
 
 This is something called *type coercion*, and it is the source of many surprises
@@ -279,7 +279,7 @@ The coercion rules go: `logical` -> `integer` -> `numeric` -> `complex` ->
 force coercion against this flow using the `as.` functions:
 
 ```{r}
-character_vector_example <- c('0','2','4')
+character_vector_example <- c('0', '2', '4')
 character_vector_example
 character_coerced_to_numeric <- as.numeric(character_vector_example)
 character_coerced_to_numeric
@@ -321,15 +321,15 @@ You can also make series of numbers:
 mySeries <- 1:10
 mySeries
 seq(10)
-seq(1,10, by=0.1)
+seq(1, 10, by = 0.1)
 ```
 
 We can ask a few questions about vectors:
 
 ```{r}
 sequence_example <- seq(10)
-head(sequence_example, n=2)
-tail(sequence_example, n=4)
+head(sequence_example, n = 2)
+tail(sequence_example, n = 4)
 length(sequence_example)
 class(sequence_example)
 typeof(sequence_example)
@@ -459,7 +459,7 @@ is simpler in some ways than the other types, because you can put anything you
 want in it:
 
 ```{r}
-list_example <- list(1, "a", TRUE, 1+4i)
+list_example <- list(1, "a", TRUE, 1 + 4i)
 list_example
 another_list <- list(title = "Numbers", numbers = 1:10, data = TRUE )
 another_list
@@ -563,7 +563,7 @@ str(cats[1,])
 Last but not least is the matrix. We can declare a matrix full of zeros:
 
 ```{r}
-matrix_example <- matrix(0, ncol=6, nrow=3)
+matrix_example <- matrix(0, ncol = 6, nrow = 3)
 matrix_example
 ```
 
