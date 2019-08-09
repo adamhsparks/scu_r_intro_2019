@@ -30,6 +30,13 @@ source: Rmd
 
 
 
+## Lesson acknowledgements
+
+This lesson is derived from the Software Carpentry lesson,
+[R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder).
+However, we are not going to offer a full Software Carpentry course, we are only
+using some of the materials.
+
 
 ## Motivation
 
@@ -43,25 +50,18 @@ Senegal? Can you calculate the average income for countries on the continent of 
 By the end of these lessons you will be able to do things like plot the populations
 for all of these countries in under a minute!
 
-## Before Starting The Workshop
-
-Please ensure you have the latest version of R and RStudio installed on your machine. This is important, as some packages used in the workshop may not install correctly (or at all) if R is not up to date.
-
-[Download and install the latest version of R here](https://www.r-project.org/)
-[Download and install RStudio here](https://www.rstudio.com/)
-
 ## Introduction to RStudio
 
-Welcome to the R portion of the Software Carpentry workshop.
+Welcome to our introductory R workshop.
 
 Throughout this lesson, we're going to teach you some of the fundamentals of
 the R language as well as some best practices for organizing code for
 scientific projects that will make your life easier.
 
-We'll be using RStudio: a free, open source R integrated development
-environment. It provides a built in editor, works on all platforms (including
-on servers) and provides many advantages such as integration with version
-control and project management.
+We'll be using [RStudio](https://www.rstudio.com/): a free, open source R
+integrated development environment (IDE). It provides a built in editor, works
+on all platforms (including on servers) and provides many advantages such as
+integration with version control and project management.
 
 
 
@@ -167,7 +167,7 @@ prompt.
 
 > ## Tip: Cancelling commands
 >
-> If you're using R from the commandline instead of from within RStudio,
+> If you're using R from the command line instead of from within RStudio,
 > you need to use <kbd>Ctrl</kbd>+<kbd>C</kbd> instead of <kbd>Esc</kbd>
 > to cancel the command. This applies to Mac users as well!
 >
@@ -708,7 +708,7 @@ function (name, pos = -1L, envir = as.environment(pos), all.names = FALSE,
     }
     else all.names
 }
-<bytecode: 0x7f90c105ee80>
+<bytecode: 0x7fa9f121fa90>
 <environment: namespace:base>
 ~~~
 {: .output}
@@ -848,7 +848,7 @@ network). R and RStudio have functionality for managing packages:
 > > [1] TRUE
 > > ~~~
 > > {: .output}
-> > This should yield a boolean value of TRUE since 109.25 is greater than 102.
+> > This should yield a Boolean value of TRUE since 109.25 is greater than 102.
 > {: .solution}
 {: .challenge}
 

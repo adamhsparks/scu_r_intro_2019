@@ -124,27 +124,27 @@ sessionInfo()
 
 
 ~~~
-R version 3.6.0 (2019-04-26)
+R version 3.6.1 (2019-07-05)
 Platform: x86_64-apple-darwin15.6.0 (64-bit)
-Running under: macOS Mojave 10.14.5
+Running under: macOS Mojave 10.14.6
 
 Matrix products: default
 BLAS:   /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRblas.0.dylib
 LAPACK: /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRlapack.dylib
 
 locale:
-[1] en_AU.UTF-8/en_AU.UTF-8/en_AU.UTF-8/C/en_AU.UTF-8/en_AU.UTF-8
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
 
 attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] knitr_1.23              requirements_0.0.0.9000 remotes_2.0.4          
+[1] knitr_1.23              requirements_0.0.0.9000 remotes_2.1.0          
 
 loaded via a namespace (and not attached):
- [1] compiler_3.6.0  magrittr_1.5    htmltools_0.3.6 tools_3.6.0    
- [5] yaml_2.2.0      Rcpp_1.0.1      stringi_1.4.3   rmarkdown_1.13 
- [9] stringr_1.4.0   xfun_0.7        digest_0.6.19   rlang_0.3.4    
+ [1] compiler_3.6.1  magrittr_1.5    htmltools_0.3.6 tools_3.6.1    
+ [5] yaml_2.2.0      Rcpp_1.0.2      stringi_1.4.3   rmarkdown_1.14 
+ [9] stringr_1.4.0   xfun_0.8        digest_0.6.20   rlang_0.4.0    
 [13] evaluate_0.14  
 ~~~
 {: .output}

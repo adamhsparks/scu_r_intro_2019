@@ -66,7 +66,7 @@ project.
 > 1. Click the "File" menu button, then "New Project".
 > 2. Click "New Directory".
 > 3. Click "New Project".
-> 4. Type in the name of the directory to store your project, e.g. "my_project".
+> 4. Type in the name of the directory to store your project, _e.g._, "my_project".
 > 5. If available, select the checkbox for "Create a git repository."
 > 6. Click the "Create Project" button.
 {: .challenge}
@@ -83,13 +83,13 @@ principles to adhere to that will make project management easier:
 
 This is probably the most important goal of setting up a project. Data is
 typically time consuming and/or expensive to collect. Working with them
-interactively (e.g., in Excel) where they can be modified means you are never
+interactively (_e.g._, in Excel) where they can be modified means you are never
 sure of where the data came from, or how it has been modified since collection.
 It is therefore a good idea to treat your data as "read-only".
 
 ### Data Cleaning
 
-In many cases your data will be "dirty": it will need significant preprocessing
+In many cases your data will be "dirty": it will need significant pre-processing
 to get into a format R (or any other programming language) will find useful.
 This task is sometimes called "data munging". Storing these scripts in a
 separate folder, and creating a second "read-only" data folder to hold the
@@ -111,7 +111,7 @@ project, and some of the analyses get shared between projects.
 >
 > 1. Put each project in its own directory, which is named after the project.
 > 2. Put text documents associated with the project in the `doc` directory.
-> 3. Put raw data and metadata in the `data` directory, and files generated during cleanup and analysis in a `results` directory.
+> 3. Put raw data and metadata in the `data` directory, and files generated during clean-up and analysis in a `results` directory.
 > 4. Put source for the project's scripts and programs in the `src` directory, and programs brought in from elsewhere or compiled locally in the `bin` directory.
 > 5. Name all files to reflect their content or function.
 >
@@ -134,12 +134,12 @@ one to store the analysis scripts.
 > make updates to code in multiple places.
 >
 > In this case, making "symbolic links", which are essentially shortcuts to
-> files somewhere else on a filesystem, can let you use existing code without
+> files somewhere else on a file system, can let you use existing code without
 > having to move or copy it. Plus, any changes made to that code will only have
 > to be made once.
 >
 > On Linux and OS X you can use the `ln -s` command, and on Windows you can
-> either create a shortcut or use the `mklink` command from the windows terminal.
+> either create a shortcut or use the `mklink` command from the Windows terminal.
 {: .callout}
 
 ### Save the data in the data directory

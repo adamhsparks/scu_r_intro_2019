@@ -29,8 +29,9 @@ source: Rmd
 
 At this point, you've seen it all: in the last lesson, we toured all the basic
 data types and data structures in R. Everything you do will be a manipulation of
-those tools. But most of the time, the star of the show is the data frame—the table that we created by loading information from a csv file. In this lesson, we'll learn a few more things
-about working with data frames.
+those tools. But most of the time, the star of the show is the data frame—the
+table that we created by loading information from a csv file. In this lesson,
+we'll learn a few more things about working with data frames.
 
 ## Adding columns and rows in data frames
 
@@ -136,7 +137,7 @@ length(age)
 ~~~
 {: .output}
 
-So for it to work we need to have `nrow(cats)` = `length(age)`. Let's overwite the content of cats with our new data frame.
+So for it to work we need to have `nrow(cats)` = `length(age)`. Let's overwrite the content of cats with our new data frame.
 
 
 ~~~
@@ -314,7 +315,7 @@ cats[-4, ]
 Notice the comma with nothing after it to indicate that we want to drop the entire fourth row.
 
 Note: we could also remove both new rows at once by putting the row numbers
-inside of a vector: `cats[c(-4,-5), ]`
+inside of a vector: `cats[c(-4, -5), ]`
 
 Alternatively, we can drop all rows with `NA` values:
 
@@ -349,7 +350,7 @@ We can also remove columns in our data frame. What if we want to remove the colu
 
 
 ~~~
-cats[,-4]
+cats[, -4]
 ~~~
 {: .language-r}
 
